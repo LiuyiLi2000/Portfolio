@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QA Portfolio - [YOUR NAME HERE]</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+        
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            background: #333;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        
+        header h1 {
+            margin-bottom: 10px;
+        }
+        
+        .intro {
+            background: white;
+            padding: 30px;
+            margin: 20px 0;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        .projects {
+            display: grid;
+            gap: 20px;
+            margin-top: 30px;
+        }
+        
+        .project {
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            border-left: 4px solid #007bff;
+        }
+        
+        .project h2 {
+            color: #333;
+            margin-bottom: 15px;
+        }
+        
+        .status {
+            display: inline-block;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-size: 12px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        
+        .completed { background: #d4edda; color: #155724; }
+        .in-progress { background: #fff3cd; color: #856404; }
+        .coming-soon { background: #f8d7da; color: #721c24; }
+        
+        .tech-stack {
+            margin-top: 15px;
+        }
+        
+        .tech {
+            display: inline-block;
+            background: #007bff;
+            color: white;
+            padding: 3px 8px;
+            border-radius: 3px;
+            font-size: 12px;
+            margin-right: 5px;
+            margin-bottom: 5px;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #333;
+            color: white;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>[YOUR NAME HERE]</h1>
+            <p>Junior QA Engineer | C# Developer | Test Automation</p>
+        </div>
+    </header>
+
+    <div class="container">
+        <section class="intro">
+            <h2>About My Learning Journey</h2>
+            <p>I'm currently learning C# programming and software testing to become a Junior QA Engineer. 
+            This portfolio showcases my progress through hands-on projects and practical applications.</p>
+            
+            <h3>Skills I'm Learning:</h3>
+            <ul>
+                <li>C# Programming Fundamentals</li>
+                <li>Object-Oriented Programming (OOP)</li>
+                <li>Manual Testing & Test Case Writing</li>
+                <li>Test Automation with Selenium</li>
+                <li>Version Control with Git/GitHub</li>
+            </ul>
+        </section>
+
+        <section class="projects">
+            <div class="project">
+                <span class="status completed">COMPLETED</span>
+                <h2>Project 1: Interactive Menu System</h2>
+                <p>A C# console application demonstrating user input handling, conditional logic, and program flow control.</p>
+                
+                <h4>Features:</h4>
+                <ul>
+                    <li>Multi-option menu interface</li>
+                    <li>User input validation</li>
+                    <li>Age calculator (dog years)</li>
+                    <li>Personalized greetings</li>
+                </ul>
+                
+                <div class="tech-stack">
+                    <span class="tech">C#</span>
+                    <span class="tech">Console App</span>
+                    <span class="tech">Control Structures</span>
+                </div>
+                
+                <p><strong>Code Repository:</strong> <a href="#">Coming Soon</a></p>
+            </div>
+
+            <div class="project">
+                <span class="status completed">COMPLETED</span>
+                <h2>Project 2: Shopping List Manager</h2>
+                <p>Dynamic shopping list application showcasing array manipulation and user interaction.</p>
+                
+                <h4>Features:</h4>
+                <ul>
+                    <li>Pre-loaded shopping items</li>
+                    <li>Add new items functionality</li>
+                    <li>Display formatted list with numbering</li>
+                    <li>Item counter</li>
+                </ul>
+                
+                <div class="tech-stack">
+                    <span class="tech">C#</span>
+                    <span class="tech">Arrays/Lists</span>
+                    <span class="tech">Data Structures</span>
+                </div>
+                
+                <p><strong>Code Repository:</strong> <a href="#">Coming Soon</a></p>
+            </div>
+
+            <div class="project">
+                <span class="status coming-soon">COMING SOON</span>
+                <h2>Project 3: Calculator with Methods</h2>
+                <p>Advanced calculator demonstrating method organization and mathematical operations.</p>
+                
+                <div class="tech-stack">
+                    <span class="tech">C#</span>
+                    <span class="tech">Methods</span>
+                    <span class="tech">Math Operations</span>
+                </div>
+            </div>
+
+            <div class="project">
+                <span class="status coming-soon">COMING SOON</span>
+                <h2>Project 4: Student Grade System</h2>
+                <p>Object-oriented program showcasing class design and data management.</p>
+                
+                <div class="tech-stack">
+                    <span class="tech">C#</span>
+                    <span class="tech">OOP</span>
+                    <span class="tech">Classes</span>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 [YOUR NAME] | Learning Journey Portfolio</p>
+            <p>Contact: [your-email@example.com] | GitHub: <a href="https://github.com/[your-username]" style="color: #007bff;">[your-username]</a></p>
+        </div>
+    </footer>
+</body>
+</html>
